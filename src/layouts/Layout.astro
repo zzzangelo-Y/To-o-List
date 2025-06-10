@@ -1,0 +1,31 @@
+---
+import './src/styles/global.css'
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title>Notas Pagina</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style>
+
+	:root {
+		box-sizing: border-box;
+	}
+	html,
+	body {
+		margin: 0;
+		padding: 0;
+		display: grid;
+		place-content: center;
+		min-height: 100vh;
+	}
+</style>
